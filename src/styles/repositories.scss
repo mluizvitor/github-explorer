@@ -1,29 +1,41 @@
+$main-color: #8257e6;
+$main-color-title: desaturate(darken($main-color, 40%), 50%);
+$main-color-body: desaturate(darken($main-color, 30%), 80%);
+
 section.repository-list {
   margin: 40px;
 
   h1 {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
+    color: $main-color-title;
   }
 
   ul {
     list-style: none;
 
     li {
+      border-left: 4px solid lighten($main-color-body, 50%);
+      padding-left: 16px;
       & + li {
-        margin-top: 20px;
+        margin-top: 32px;
+      }
+
+      strong {
+        color: $main-color-title;
       }
 
       p {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 8px;
-        color: #444;
+        color: $main-color-body;
       }
 
       a {
+        font-size: 14px;
         display: inline-block;
-        margin-top: 16px;
+        margin-top: 8px;
         text-decoration: none;
-        color: #8257e6;
+        color: $main-color;
       }
     }
   }
