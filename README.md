@@ -18,7 +18,7 @@ Foram configurados:
 
 ## Iniciando a aplicação
 
-\>\> [Acesse online](https://mvitor.dev/ignite-reactjs-01-github-explorer/) ou:
+\>\> [Acesse online](https://mvitor.dev/github-explorer/) ou:
 
 Com Yarn:
 
